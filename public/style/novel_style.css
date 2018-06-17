@@ -1,0 +1,95 @@
+#header {
+	position: relative;
+	width: 100%;
+	background-color: black;
+	font-family: fantasy;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 31.2px;
+	padding: 5px;
+	color: white;
+}
+
+#tabs {
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	top: 40%;
+	color: white;
+	display: inline;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	margin: 0 20px;
+}
+
+#container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#divider1 {
+	width:50%;
+	height: 750px;
+}
+
+
+
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+    height: 100%
+}
+
+.bgimg {
+    /* Background image */
+    background-image: url('https://scontent-lga3-1.cdninstagram.com/vp/e083a0f671d921909d642a3c6b40af95/5BBAB319/t51.2885-15/sh0.08/e35/p640x640/15534973_1842466859300209_5424565758094999552_n.jpg');
+    /* Full-screen */
+    height: 200%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: 100%;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: whitesmoke;
+    /* Add a font */
+    font-family: "Courier New", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Style the <hr> element */
+hr {
+    margin: auto;
+    width: 40%;
+} 
