@@ -60,7 +60,7 @@ body, html {
 /* The hero image */
 .hero-image {
     /* The image used */
-    background-image: url("http://www.allwhitebackground.com/images/2/2277.jpg");
+    background-image: url("url(../res/images/fantasy.jpg)");
 
     /* Set a specific height */
     height: 100%;
