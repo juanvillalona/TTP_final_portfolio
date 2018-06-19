@@ -1,0 +1,219 @@
+#header {
+	position: relative;
+	width: 100%;
+	background-color: black;
+	font-family: fantasy;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 31.2px;
+	padding: 5px;
+    color: white;
+    opacity: .8;
+}
+
+#tabs {
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	top: 40%;
+	color: white;
+	display: inline;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	margin: 0 20px;
+}
+
+body {
+    background: url("https://fuengirola.fi/wp-content/uploads/Sade.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#container {
+    position: relative;
+	width: 100%;
+	height: 1000px;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#openForm {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+/* Set a style for all buttons */
+#submit, #cancel {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px auto;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+#blogContainer {
+    margin: 10px auto;
+    width: 50%;
+    height: 90%;
+    opacity: 0.8;
+    padding: 10px;
+    overflow-y: scroll;
+    background: gray;
+    
+}
+
+.blogBox {
+    border: solid;
+    width: 97%;
+    margin: 15px auto;
+    overflow-wrap: break-word;
+    float: left;
+    padding: 10px;
+    
+}
+
+h1 {
+    margin: 5px 0px 5px 0px;
+}
+
+h5 {
+    margin: 5px 0px 10px 0px;
+}
+
+#openForm {
+    margin: 0 auto;
+    
+}
+
+#contentBox {
+    background:white;
+    opacity: 0.8;
+}
+
+#topicContainer {
+    border-style: solid;
+    width: 100%;
+}
+
+#subjectContainer {
+    border: solid;
+    width: 100%;
+}
+
+

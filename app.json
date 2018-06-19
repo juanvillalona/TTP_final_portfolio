@@ -1,0 +1,6 @@
+{
+    "name": "JuanV Portfolio",
+    "description": "A simple portfolio with a blog",
+    "repository": "https://github.com/juanvillalona/TTP_final_portfolio.git",
+    "keywords": ["node", "express", "static"]
+}

@@ -9,7 +9,8 @@
 	font-weight: 100;
 	line-height: 31.2px;
 	padding: 5px;
-	color: white;
+    color: white;
+    opacity:  0.8;
 }
 
 #tabs {
