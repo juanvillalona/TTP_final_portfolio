@@ -41,6 +41,10 @@
 		res.render('contact_me');
 	});
 
+	app.get('/projects', function(req, res) {
+		res.render('projects');
+	})
+
 	app.get('/novel', function(req, res) {
 		res.render('novel');
 	});
@@ -57,6 +61,7 @@
 		var date = d.getFullYear() + '/' + (month < 10 ? '0' : '') + month +'/' + (day < 10 ? '0' : '') + day;
 		var time = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
 		pool.query(`INSERT INTO blog(date, time, poster, topic, content) VALUES('${date}' ,  '${time}' , 'Me', '${t.topic}', '${t.subject}')`);
+		console.log("success");
 		res.redirect('blog');
 	});
 
