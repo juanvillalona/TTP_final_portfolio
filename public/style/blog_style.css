@@ -33,7 +33,9 @@ body {
     background: url("https://fuengirola.fi/wp-content/uploads/Sade.jpg");
     background-size: cover;
     background-position: center;
+    
     background-repeat: no-repeat;
+    
 }
 
 #container {
@@ -168,32 +170,41 @@ span.psw {
 }
 
 #blogContainer {
-    margin: 10px auto;
+    padding: 10px 16px;
+    margin: 20px;
+        opacity: 0.9;
     width: 50%;
-    height: 90%;
-    opacity: 0.8;
-    padding: 10px;
-    overflow-y: scroll;
-    background: gray;
     
 }
 
-.blogBox {
-    border: solid;
-    width: 97%;
-    margin: 15px auto;
-    overflow-wrap: break-word;
-    float: left;
-    padding: 10px;
-    
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 5px;
+    background: black;
+    opacity: .9;
+    color: white;
+    padding: 20px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 h1 {
-    margin: 5px 0px 5px 0px;
+    margin-bottom: 15px;
+
 }
 
 h5 {
-    margin: 5px 0px 10px 0px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
 }
 
 #openForm {
@@ -206,14 +217,6 @@ h5 {
     opacity: 0.8;
 }
 
-#topicContainer {
-    border-style: solid;
-    width: 100%;
-}
 
-#subjectContainer {
-    border: solid;
-    width: 100%;
-}
 
 

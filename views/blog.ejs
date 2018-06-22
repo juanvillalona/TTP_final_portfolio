@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div id = header>
-		<p>Where Write Stuff!</p>
+		<p>Where I Talk About Stuff!</p>
 		<%-include('partials/tabs.ejs')%>
 		
     </div>
@@ -27,7 +27,7 @@
             <label ><b>Topic</b></label>
             <input id:"topic" type="text" placeholder="Topic" name="topic" required>
             <label><b>What's on your mind?</b></label>
-            <input type="text" placeholder="Enter Password" name="subject" required>
+            <input type="text" placeholder="What's on your mind?" name="subject" required>
               
             <button id="submit"type="submit">Submit</button>
             <button id="cancel" type="button" onclick="document.getElementById('id01').style.display='none'" >Cancel</button>
@@ -41,13 +41,13 @@
    
       <div id="blogContainer">
         <% for( var i = blog.length - 1; i >= 0; i--) { %>
-          <div class="blogBox">
+          <div class="card">
             
               <h1><%= blog[i].topic %></h1>
               <h5><%= blog[i].date + " " + blog[i].time %></h5>
-            <div id="contentBox">
+          
               <p><%= blog[i].content %></p>
-            </div>
+            
             
 
           </div>

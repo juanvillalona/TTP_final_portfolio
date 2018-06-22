@@ -1,0 +1,36 @@
+#header {
+	position: relative;
+	width: 100%;
+	background-color: black;
+	font-family: fantasy;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 31.2px;
+	padding: 5px;
+    color: white;
+    opacity:  0.8;
+}
+
+#tabs {
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	top: 40%;
+	color: white;
+	display: inline;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	margin: 0 20px;
+}
+
+
+body {
+    background-image: url('http://www.misd.org/upload/page/0272/widgets/image/004011/underconstruction.jpg');
+    background-size: cover;
+}
